@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>白露摄影工作室</title>
+<style>
+  :root{--bg:#0e0e10;--ink:#eceae6;--sub:#9b968e;--accent:#c9a86a;--card:#17171a;--line:#26262b}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"PingFang SC","Microsoft YaHei",serif;background:var(--bg);color:var(--ink);line-height:1.8}
+  .wrap{max-width:1020px;margin:0 auto;padding:0 24px}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+  .logo{letter-spacing:6px;font-size:19px}.logo span{color:var(--accent)}
+  nav ul{display:flex;gap:26px;list-style:none;font-size:13px;color:var(--sub);letter-spacing:2px}
+  .hero{text-align:center;padding:90px 0 70px}
+  .hero h1{font-size:46px;letter-spacing:4px;font-weight:400}
+  .hero h1 b{color:var(--accent);font-weight:400}
+  .hero p{color:var(--sub);margin:24px auto 36px;max-width:560px;font-size:15px}
+  .btn{display:inline-block;border:1px solid var(--accent);color:var(--accent);padding:13px 44px;text-decoration:none;letter-spacing:4px;font-size:14px}
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding-bottom:60px}
+  .ph{aspect-ratio:3/4;border-radius:4px;display:flex;align-items:end;justify-content:center;padding:14px;font-size:13px;letter-spacing:2px;color:rgba(255,255,255,.85)}
+  .p1{background:linear-gradient(160deg,#8a7c6a,#4a4238)}
+  .p2{background:linear-gradient(160deg,#6a7a8a,#38424a)}
+  .p3{background:linear-gradient(160deg,#8a6a7a,#4a3842)}
+  .svc{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding-bottom:70px;text-align:center}
+  .s{border:1px solid var(--line);padding:30px 20px;border-radius:4px}
+  .s h3{font-size:16px;letter-spacing:3px;margin-bottom:8px;color:var(--accent)}
+  .s p{font-size:13px;color:var(--sub)}
+  .s .pr{margin-top:14px;font-size:18px}
+  footer{text-align:center;color:var(--sub);font-size:12px;letter-spacing:2px;padding:32px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><div class="logo">白露<span>摄影</span>STUDIO</div><ul><li>作品集</li><li>拍摄套系</li><li>关于我们</li><li>预约</li></ul></nav>
+  <section class="hero">
+    <h1>光有形状,<b>记忆有温度</b></h1>
+    <p>两个人,一台相机,八年人像经验。不赶场、不摆拍,只记录你们自然发生的样子。档期每月仅排 12 组。</p>
+    <a class="btn" href="#book">预约档期</a>
+  </section>
+  <section class="gallery">
+    <div class="ph p1">婚纱系列</div>
+    <div class="ph p2">旅拍系列</div>
+    <div class="ph p3">亲子系列</div>
+  </section>
+  <section class="svc">
+    <div class="s"><h3>轻婚纱</h3><p>2 服装 2 场景 / 底片全给 / 精修 30 张</p><div class="pr">¥2,680</div></div>
+    <div class="s"><h3>情侣纪念</h3><p>1 服装 1 场景 / 底片全给 / 精修 15 张</p><div class="pr">¥1,280</div></div>
+    <div class="s"><h3>家庭日记</h3><p>上门跟拍 2 小时 / 纪实风格 / 精修 25 张</p><div class="pr">¥1,880</div></div>
+  </section>
+  <footer>白露摄影工作室 · 创意园 C 栋 305 · 周三至周日 10:00-19:00</footer>
+</div>
+</body>
+</html>

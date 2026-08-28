@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>拾光花坊 · 街角花店</title>
+<style>
+  :root{
+    --bg:#faf7f2; --ink:#2d2a26; --sub:#8a8378; --accent:#c96f4a; --card:#ffffff; --line:#e8e2d8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+  nav .logo{font-weight:700;font-size:20px;letter-spacing:2px}
+  nav .logo span{color:var(--accent)}
+  nav ul{display:flex;gap:28px;list-style:none;font-size:14px;color:var(--sub)}
+  .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding:64px 0 88px}
+  .hero h1{font-size:44px;line-height:1.25;letter-spacing:1px}
+  .hero h1 em{font-style:normal;color:var(--accent)}
+  .hero p{color:var(--sub);margin:22px 0 34px;font-size:16px}
+  .btn{display:inline-block;background:var(--accent);color:#fff;padding:14px 38px;border-radius:999px;text-decoration:none;font-size:15px;letter-spacing:1px}
+  .btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink);margin-left:14px}
+  .photo{aspect-ratio:4/5;background:linear-gradient(135deg,#e8d5c4 0%,#d4b8a0 45%,#b98d6f 100%);border-radius:18px;display:flex;align-items:end;justify-content:center;position:relative;overflow:hidden}
+  .photo::after{content:"🌷 🌸 🌹";font-size:110px;position:absolute;bottom:32px;text-shadow:0 10px 30px rgba(0,0,0,.18)}
+  .tags{display:flex;gap:10px;margin-bottom:18px}
+  .tag{font-size:12px;background:#f1e9df;color:var(--accent);padding:4px 12px;border-radius:999px;letter-spacing:1px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding:0 0 88px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:30px 26px}
+  .card h3{font-size:18px;margin:14px 0 10px}
+  .card p{font-size:14px;color:var(--sub)}
+  .ico{font-size:30px}
+  .band{background:var(--ink);color:#f5efe6;border-radius:20px;padding:46px 40px;display:flex;justify-content:space-between;align-items:center}
+  .band h2{font-size:26px;letter-spacing:1px}
+  .band p{color:#b8b0a4;font-size:14px;margin-top:8px}
+  footer{text-align:center;color:var(--sub);font-size:12px;padding:36px 0 28px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <div class="logo">拾光花坊<span>·</span></div>
+    <ul><li>本周花束</li><li>定制花礼</li><li>企业用花</li><li>花艺课程</li></ul>
+  </nav>
+  <section class="hero">
+    <div>
+      <div class="tags"><span class="tag">当日达</span><span class="tag">设计师主理</span><span class="tag">开业 8 年</span></div>
+      <h1>把街角的四季,<br>扎成一束<em>送得出去的浪漫</em></h1>
+      <p>主理人每日清晨 5 点花市选材，只做当日鲜花。婚庆、开业、道歉、想念——你说场景,我们出方案,2 小时成品图确认。</p>
+      <a class="btn" href="#order">订一束（¥129 起）</a><a class="btn ghost" href="#works">看看本周作品</a>
+    </div>
+    <div class="photo"></div>
+  </section>
+  <section class="grid">
+    <div class="card"><div class="ico">💐</div><h3>本周主打</h3><p>应季花材每周更新,附养护卡片与保鲜剂,醒花教程扫码即看。</p></div>
+    <div class="card"><div class="ico">🏷️</div><h3>场景定制</h3><p>求婚/道歉/探病/乔迁,告诉预算和收花人,设计师 30 分钟出 3 版方案。</p></div>
+    <div class="card"><div class="ico">🚗</div><h3>全城当日达</h3><p>市区 3 小时送达,代写贺卡免费,支持指定时间惊喜投递。</p></div>
+  </section>
+  <section class="band">
+    <div><h2>企业月度用花 · 首单 7 折</h2><p>前台花/会议室花/开业花篮,合同制月结,缺损免费补</p></div>
+    <a class="btn" href="#b2b">获取报价</a>
+  </section>
+  <footer>拾光花坊 · 城南街道 128 号 · 138-xxxx-xxxx · 营业时间 8:30-20:00</footer>
+</div>
+</body>
+</html>
